@@ -9,7 +9,7 @@ CHIPSET_NAME=sdm670
 ARCH=arm64
 
 BUILD_CROSS_COMPILE=$PARENT_DIR/aarch64-linux-android-4.9/bin/aarch64-linux-android-
-KERNEL_MAKE_ENV="KCFLAGS=-mno-android"
+KERNEL_MAKE_ENV="LOCALVERSION=-afaneh92 KCFLAGS=-mno-android"
 
 DTS_DIR=$(pwd)/out/arch/$ARCH/boot/dts
 
